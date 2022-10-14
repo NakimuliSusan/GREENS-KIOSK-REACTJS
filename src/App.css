@@ -1,0 +1,126 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-image:url(./bg.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+  /* background-position:100%; */
+}
+.products p {
+  color: aliceblue;
+  border-radius:10px;
+  margin-left:33%;
+  padding:10px;
+  width:30%;
+  box-shadow: 2px 2px 10px rgba(221, 215, 215, 0.5);
+}
+.navbar {
+  background-color:#0C2D48;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding:20px;
+  /* float: right; */
+  text-align: center;
+}
+.navbar ul{
+list-style:none;
+padding: 0;
+margin: 0;
+display: flex;
+gap: 1rem;
+
+}
+.navbar a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+.navbar li.active {
+  background-color: blueviolet;
+}
+
+.navbar li:hover {
+  color: rgb(43, 226, 220);
+} 
+.fruits{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.fruits p{
+  background-image:url(./greens.jpeg);
+  padding:40px;
+  color: aliceblue;
+  background-color: #282c34;
+  background-blend-mode: overlay;
+  border-radius:10px;
+  box-shadow: 2px 2px 10px rgba(221, 215, 215, 0.5);
+  /* width:120%; */
+
+}
+h2{
+  text-align: center;
+  color:whitesmoke;
+  font-size:30px;
+
+}
+#unique{
+  text-align: center;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aquamarine;
+  
+}
+h3{
+  text-align: center;
+  font-size:25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: whitesmoke;
+}
+
+.paragraph {
+  color: whitesmoke;
+}
